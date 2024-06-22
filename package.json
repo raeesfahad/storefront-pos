@@ -1,0 +1,31 @@
+{
+  "name": "pos-fe",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^3.0.2",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "svelte": "^4.2.12",
+    "tailwindcss": "^3.4.3",
+    "vite": "^5.2.0"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.43.4",
+    "chart.js": "^4.4.3",
+    "dotenv": "^16.4.5",
+    "echarts": "^5.5.0",
+    "html2canvas": "^1.4.1",
+    "html2pdf.js": "^0.10.1",
+    "jspdf": "^2.5.1",
+    "page": "^1.11.6",
+    "svelte-icons": "^2.1.0",
+    "svelte-spa-router": "^4.0.1"
+  }
+}
